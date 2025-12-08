@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.post("/api/send-email", async (req, res) => {
+app.post("/send-email", async (req, res) => {
   const { name, email, studentId, batch, subject, message } = req.body;
 
   try {
