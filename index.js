@@ -323,8 +323,8 @@ app.post("/send-email", async (req, res) => {
             
             <!-- Action Buttons -->
             <div class="action-buttons">
-                <a href="mailto:${email}" class="btn btn-secondary">
-                    Reply to Student
+                <a href="https://github.com/AbrarShazid/mail-smtp-backend" class="btn btn-secondary">
+                    Go to GitHub
                 </a>
                 
             </div>
