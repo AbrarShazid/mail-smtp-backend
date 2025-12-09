@@ -193,7 +193,7 @@ app.post("/send-email", async (req, res) => {
         
         .btn-secondary {
             background: #6f248f;
-            color: #e8e8e8;
+           color: #ffffff !important;
             border: 1px solid #cbd5e1;
         }
         
@@ -323,7 +323,7 @@ app.post("/send-email", async (req, res) => {
             
             <!-- Action Buttons -->
             <div class="action-buttons">
-                <a href="https://github.com/AbrarShazid/mail-smtp-backend" class="btn btn-secondary">
+                <a href="https://github.com/AbrarShazid/mail-smtp-backend" class="btn btn-secondary"  style="color:#ffffff !important;">
                     Go to GitHub
                 </a>
                 
