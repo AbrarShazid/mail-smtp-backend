@@ -350,8 +350,8 @@ app.post("/send-email", async (req, res) => {
 
     await transporter.sendMail({
       from: `"Student Portal" <${process.env.SMTP_USER}>`, // Branded sender
-    //   to: "harashid@uttarauniversity.edu.bd",
-      to: "2222081036@uttarauniversity.edu.bd",
+      to: "harashid@uttarauniversity.edu.bd",
+    //   to: "2222081036@uttarauniversity.edu.bd",
       subject: subject || `New Message from ${name} - Student Portal`,
       html: htmlContent,
       replyTo: email,
